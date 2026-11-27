@@ -1,8 +1,10 @@
 import Reveal from "./reveal";
 import Resume from "./resume";
 import SectionHeading from "./section-heading";
-import resumeUrl from "../utils/ovt.pdf";
 import { EXPERIENCE_DATA } from "../constants/data";
+
+const RESUME_URL =
+  "https://raw.githubusercontent.com/mikelneonedwin/cvvd/main/public/cv.pdf";
 
 const isCurrent = (period = "") => /present/i.test(period);
 
@@ -20,8 +22,8 @@ const Experience = () => {
           />
           <Reveal delay={0.15} className="mt-8">
             <Resume
-              pdfUrl={resumeUrl}
-              fileName="Victor Olatunji.pdf"
+              pdfUrl={RESUME_URL}
+              fileName="Winner Edwin (@mikelneonedwin).pdf"
               buttonText="Download résumé"
             />
           </Reveal>

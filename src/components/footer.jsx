@@ -24,10 +24,19 @@ const Footer = () => {
       <div className="mt-8 flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div>
           <p className="font-clashbold text-[20px] font-semibold text-white">
-            VickyJay<span className="text-mint">.</span>
+            Winner<span className="text-mint">.</span>
           </p>
           <p className="mt-1 font-pop text-[14px] text-ice/50">
-            © 2021 – {new Date().getFullYear()} Victor Olatunji. Built with React, Tailwind &amp; a lot of coffee.
+            © {new Date().getFullYear()} Winner Edwin. Forked from{" "}
+            <a
+              href="https://github.com/Victorola-coder/VickyJay"
+              target="_blank"
+              rel="noreferrer"
+              className="text-ice/70 transition-colors hover:text-mint"
+            >
+              VickyJay
+            </a>
+            .
           </p>
         </div>
 

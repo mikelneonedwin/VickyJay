@@ -133,6 +133,12 @@ body::-webkit-scrollbar-track {
   100% { background-position: 0% 50%; }
 }
 
+@keyframes terminal-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 .gradientText {
   background: linear-gradient(
     76deg,

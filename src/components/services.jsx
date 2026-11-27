@@ -4,7 +4,7 @@ import SectionHeading from "./section-heading";
 import { SERVICES_DATA } from "../constants/data";
 
 const ICONS = {
-  Design: (
+  Frontend: (
     <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 19l7-7 3 3-7 7-3-3z" />
       <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
@@ -12,14 +12,14 @@ const ICONS = {
       <circle cx="11" cy="11" r="2" />
     </svg>
   ),
-  DevOps: (
+  "Backend & Systems": (
     <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <rect x="3" y="4" width="18" height="7" rx="2" />
       <rect x="3" y="13" width="18" height="7" rx="2" />
       <path d="M7 7.5h.01M7 16.5h.01M12 7.5h5M12 16.5h5" />
     </svg>
   ),
-  Engineering: (
+  "Developer Tooling": (
     <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M16 18l6-6-6-6" />
       <path d="M8 6l-6 6 6 6" />
@@ -35,7 +35,7 @@ const Services = () => {
         eyebrow="What I do"
         title="Services"
         emoji="🔥"
-        sub="I design the experience, build the systems behind it, and keep them running."
+        sub="I build the interface, the systems behind it, and the tools that keep everything moving."
       />
 
       <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
@@ -54,7 +54,7 @@ const Services = () => {
               <div className="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full bg-mint/10 blur-3xl transition-opacity duration-500 group-hover:opacity-100 opacity-0" />
               <div className="flex items-start justify-between">
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl border border-mint/25 bg-mint/10 text-mint">
-                  {ICONS[service.title] ?? ICONS.Engineering}
+                  {ICONS[service.title] ?? ICONS["Developer Tooling"]}
                 </span>
                 <span className="font-mono text-[12px] tracking-[0.2em] text-ice/40">
                   0{index + 1}

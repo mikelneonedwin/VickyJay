@@ -1,10 +1,9 @@
-const image =
-  "https://res.cloudinary.com/dkoe20rzl/image/upload/v1692130992/cover_xhnhes.png";
-const creator = "VickyJay";
+const image = "https://github.com/mikelneonedwin.png";
+const creator = "Winner Edwin";
 const author = creator;
 
 export const url = (slug) => {
-  return `https://victorola.dev/${slug ?? ""}`;
+  return `https://mikelneonedwin.vercel.app/${slug ?? ""}`;
 };
 export const SEOdata = {
   homePage: {
@@ -12,8 +11,8 @@ export const SEOdata = {
     image,
     creator,
     url: url(),
-    title: "VickyJay - Creative Fullstack Engineer",
+    title: "Winner Edwin - Software Engineer",
     description:
-      "I enjoy building fullstack solutions, from backend systems to frontend experiences, with solid foundations, scalability, and excellent user experiences.",
+      "Software engineer building fast, resource-conscious systems across TypeScript, React, NestJS, and distributed backends.",
   },
 };

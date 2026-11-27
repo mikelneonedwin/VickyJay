@@ -1,51 +1,24 @@
-# VickyJay - Personal Portfolio Website
+# Winner Edwin - Portfolio
 
-![VickyJay's Portfolio Screenshot](./public/images/cover.png)
+Personal portfolio website for Winner Edwin, built on top of the [VickyJay](https://github.com/Victorola-coder/VickyJay) portfolio design and adapted with my own content, projects, and experience.
 
-Welcome to my personal portfolio! This project showcases my frontend development skills and projects I've worked on. Feel free to explore the different sections to learn more about me and my work.
+## Tech Stack
 
-## Technologies Used
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router
 
-- React.js: A popular JavaScript library for building user interfaces.
-- Tailwind CSS: A utility-first CSS framework for rapidly styling web applications.
-- React Router: A library for managing routing and navigation in a React application.
-- Framer Motion: A motion library for creating smooth animations and transitions.
-- React Icons: A library providing a wide range of icons for your projects.
+## Getting Started
 
-## Features
-
-- Responsive design: The portfolio is fully responsive to ensure a seamless experience on different devices.
-- Smooth animations: Framer Motion is used to add elegant animations and transitions.
-- Easy navigation: React Router allows for smooth navigation between different sections of the portfolio.
-- Project showcase: A dedicated section to showcase my projects with descriptions and links.
-- Contact information: Users can easily get in touch with me through provided contact details.
-
-## Installation and Setup
-
-1.  Fork
-2.  Clone the forked repository to your local machine using `git clone`.
-3.  Navigate to the project directory: `cd vickyjay`.
-4.  Install project dependencies using `npm install`.
-5.  Start the development server: `npm run dev`.
-6.  Open your web browser and navigate to `http://localhost:5173` to view the portfolio.
-
-## Usage
-
-Feel free to customize this portfolio to showcase your own projects and skills. Update the project descriptions, images, and links to match your work. Shout out is important too.
+1. Clone the repository.
+2. Install dependencies with `npm install`.
+3. Start the dev server with `npm run dev`.
+4. Open `http://localhost:5173`.
 
 ## Contact
 
-If you have any questions or would like to get in touch, you can reach me at:
-
-- Email: victoluolatunji@gmail.com
-- GitHub: [Vitorola-coder](https://github.com/Victorla-coder)
-- Portfolio: [preview](https://www.victorola.dev)
-
-## Todos
-
-- add few sleazy animation.
-- change the experience section into an array and map it.
-- change the services section into an array and map it.
-- 404 page - done ✔✔
-
-Thank you for visiting my portfolio repository!
+- Email: [winneredwin2667@gmail.com](mailto:winneredwin2667@gmail.com)
+- GitHub: [mikelneonedwin](https://github.com/mikelneonedwin)
+- X: [mikelneonedwin](https://x.com/mikelneonedwin)
