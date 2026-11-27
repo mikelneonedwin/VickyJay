@@ -1,7 +1,7 @@
 import Reveal from "./reveal";
 import Resume from "./resume";
 import SectionHeading from "./section-heading";
-import resumeUrl from "../utils/ovt.pdf";
+import resumeUrl from "../utils/winner.pdf";
 import { EXPERIENCE_DATA } from "../constants/data";
 
 const isCurrent = (period = "") => /present/i.test(period);
@@ -21,7 +21,7 @@ const Experience = () => {
           <Reveal delay={0.15} className="mt-8">
             <Resume
               pdfUrl={resumeUrl}
-              fileName="Victor Olatunji.pdf"
+              fileName="Winner Edwin.pdf"
               buttonText="Download résumé"
             />
           </Reveal>

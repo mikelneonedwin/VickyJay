@@ -1,88 +1,63 @@
 export const SERVICES_DATA = [
-  // Core services in use
   {
-    title: "Design",
+    title: "Frontend",
     description:
-      "Designing intuitive, accessible, and visually consistent interfaces that balance aesthetics with clarity.",
+      "Building fast, accessible interfaces with React, Next.js, and TypeScript, with attention to detail, performance, and the small things that make a product feel solid.",
     gradientDirection: "to-l",
   },
   {
-    title: "Engineering",
+    title: "Backend & Systems",
     description:
-      "Building reliable, performant, and maintainable frontend and backend systems with modern web technologies.",
+      "Designing APIs, distributed workflows, and backend services with NestJS, Node.js, and PostgreSQL, with a focus on reliability, clarity, and scale when it matters.",
     gradientDirection: "to-r",
   },
-
-  // Previous services kept for potential future reuse
-  // {
-  //   title: "WEB DEVELOPMENT",
-  //   description:
-  //     "I create beautiful interfaces with HTML, CSS TailwindCss, Bootstrap, JavaScript, ReactJs, NextJs & Typescript.",
-  //   gradientDirection: "to-l",
-  // },
-  // {
-  //   title: "Responsive Design",
-  //   description:
-  //     "Building websites and applications that work seamlessly on various devices and screen sizes, from desktop to smartphones.",
-  //   gradientDirection: "to-r",
-  // },
-  // {
-  //   title: "Integration with APIs",
-  //   description:
-  //     "Integrating frontend interfaces with backend services and APIs to fetch and display data in real time.",
-  //   gradientDirection: "to-l",
-  // },
-  // {
-  //   title: "Web Accessibility",
-  //   description:
-  //     "Ensuring that websites and applications are accessible to users with disabilities by implementing features like proper HTML structure and ARIA roles.",
-  //   gradientDirection: "to-r",
-  // },
-  // {
-  //   title: "VERSION CONTROL",
-  //   description:
-  //     "Using version control systems like Git to collaborate with other developers and manage code changes effectively.",
-  //   gradientDirection: "to-t",
-  // },
-  // {
-  //   title: "UI Design",
-  //   description:
-  //     "Designing the visual elements of the user interface, including layout, typography, color schemes, icons, and other graphical elements.",
-  //   gradientDirection: "to-b",
-  // },
-  // {
-  //   title: "Continuous Learning",
-  //   description:
-  //     "Staying updated with the latest frontend technologies, trends, and best practices to deliver modern and innovative solutions.",
-  //   gradientDirection: "to-b",
-  // },
-  // {
-  //   title: "Technical Support",
-  //   description:
-  //     "Providing technical support to troubleshoot frontend-related issues.",
-  //   gradientDirection: "to-t",
-  // },
+  {
+    title: "Developer Tooling",
+    description:
+      "Shipping tools that solve real problems, from CLI utilities and type-safe clients to infrastructure that makes teams move faster with less friction.",
+    gradientDirection: "to-l",
+  },
 ];
 
 export const EXPERIENCE_DATA = [
   {
-    role: "Fullstack Engineer, DevOps",
-    company: "Seel",
-    period: "Aug 2026 - Present",
-    description: "Building across the stack on Seel, a sales automation platform, and running its cloud infrastructure with Terraform on AWS, containerised services, and CI pipelines that keep releases fast and reliable.",
-    subtext: "AWS, Terraform, Docker & CI/CD"
+    role: "Full Stack Developer",
+    company: "Applift Labs",
+    period: "Jul 2025 - Present",
+    description:
+      "Working across web products and backend services, from Modools and payment infrastructure to Vijeo, an internal scale-to-zero video processing platform.",
+    subtext: "LMS, VPaaS & payment infrastructure",
   },
   {
-    role: "Fullstack Developer",
-    company: "Talksign",
-    period: "Feb 2026 - Present",
-    description: "Building Talksign, a sign-language translation and learning platform, across a React/Vite/TypeScript frontend and a Node.js/MongoDB backend — the team's newest, actively developing product.",
-    subtext: "translation engine, learning suite & creator studio"
+    role: "Lead Frontend Developer",
+    company: "LawdAm",
+    period: "Jan 2025 - Oct 2025",
+    description:
+      "Led the frontend for an anonymous social platform, building real-time messaging, presence, dynamic identity switching, and a PWA experience that felt instant.",
+    subtext: "real-time social platform",
   },
   {
-    role: "Fullstack Developer",
-    company: "Trex",
-    period: "Nov 2024 - Present",
-    description: "Contributing across frontend, backend, and mobile on a team building Trex, a modern HR and workforce management platform."
-  }
+    role: "Founding Member & Website Developer",
+    company: "Acadeva",
+    period: "Apr 2024 - Feb 2026",
+    description:
+      "Built and maintained the public platform for an academic resource repository, with a focus on fast search, in-browser previews, and low-bandwidth performance.",
+    subtext: "academic resource platform",
+  },
+  {
+    role: "Frontend Developer & Community Moderator",
+    company: "30DaysOfCodeWithVickyJay",
+    period: "Jul 2023 - Present",
+    description:
+      "Built successive submission portals for the coding challenge, reviewed participant work, and helped developers debug JavaScript and TypeScript issues in the community.",
+    subtext: "community platform & moderation",
+  },
+  {
+    role: "Frontend Developer",
+    company: "Early Internships & Client Work",
+    period: "Sep 2023 - Nov 2024",
+    description:
+      "Shipped production frontend features across fintech, healthcare, fashion, and retail products, including payment flows, catalogs, and admin dashboards.",
+    subtext: "Vistapay, TekArt, Thrivr & more",
+  },
 ];

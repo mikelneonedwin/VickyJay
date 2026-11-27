@@ -12,7 +12,7 @@ export default function SEO({
 }) {
   return (
     <Helmet>
-      <title>{title} || VickyJay - Creative Fullstack Engineer</title>
+      <title>{title} || Winner Edwin - Software Engineer</title>
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />

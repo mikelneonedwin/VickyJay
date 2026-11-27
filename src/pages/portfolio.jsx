@@ -13,8 +13,8 @@ function Home() {
   return (
     <>
       <SEO
-        title="Victor"
-        description="I enjoy building fullstack solutions, from backend systems to frontend experiences, with solid foundations, scalability, and excellent user experiences."
+        title="Winner Edwin"
+        description="Software engineer building fast, resource-conscious systems across TypeScript, React, NestJS, and distributed backends."
       />
       <Navbar />
       <main className="mx-auto max-w-[1440px] overflow-x-clip">

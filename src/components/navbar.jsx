@@ -41,7 +41,7 @@ const Navbar = () => {
             to="/"
             className="font-clashbold text-[18px] md:text-[22px] font-semibold text-white active:scale-95 transition-transform"
           >
-            VickyJay<span className="text-mint">.</span>
+            Winner<span className="text-mint">.</span>
           </NavLink>
 
           <div className="hidden md:flex items-center gap-1">
@@ -58,7 +58,7 @@ const Navbar = () => {
 
           <div className="flex items-center gap-2">
             <a
-              href="https://www.github.com/victorola-coder"
+              href="https://github.com/mikelneonedwin"
               target="_blank"
               rel="noreferrer"
               className="group hidden sm:inline-flex items-center gap-2 rounded-full border border-ice/15 px-4 py-2 font-clash text-[14px] font-medium text-ice/80 transition-all duration-300 hover:border-mint/60 hover:text-white"
@@ -110,7 +110,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://www.github.com/victorola-coder"
+              href="https://github.com/mikelneonedwin"
               target="_blank"
               rel="noreferrer"
               className="mt-1 flex items-center gap-2 rounded-xl px-4 py-3 font-clash text-[16px] text-ice/80 hover:bg-ice/5 hover:text-white sm:hidden"

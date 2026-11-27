@@ -6,8 +6,8 @@ const Changelog = () => {
   return (
     <>
       <SEO
-        title="Changelog | Victor"
-        description="Updates and improvements to the VickyJay portfolio."
+        title="Changelog | Winner Edwin"
+        description="Updates and improvements to Winner Edwin's portfolio."
       />
       <main className="max-w-[1440px] mx-auto min-h-screen flex flex-col">
         <Navbar />

@@ -4,7 +4,7 @@ import { Arrow } from "./svgs";
 
 const STATS = [
   { value: "3+", label: "Years" },
-  { value: "15+", label: "Products" },
+  { value: "20+", label: "Projects" },
   { value: "E2E", label: "Design to deploy" },
 ];
 
@@ -42,18 +42,18 @@ const Hero = () => {
             variants={item}
             className="gradientText mt-6 font-clashbold font-semibold text-[34px] leading-[1.05] tracking-[-0.02em] min-[400px]:text-[42px] sm:text-[52px] md:text-[64px] lg:text-[72px] xl:text-[80px]"
           >
-            Creative{" "}
+            Fullstack{" "}
             <br className="hidden sm:block" />
-            Fullstack Engineer.
+            Software Engineer.
           </motion.h1>
 
           <motion.p
             variants={item}
             className="gradientText mt-6 max-w-[560px] font-pop text-[16px] font-medium leading-relaxed md:text-[19px]"
           >
-            I&apos;m Victor. I craft solid, scalable products end to end, from
-            reliable APIs and services to polished, performant interfaces that
-            people enjoy using.
+            I&apos;m Winner. I build software that stays fast, clear, and
+            dependable, from thoughtful interfaces to backend systems that hold
+            up under real load.
           </motion.p>
 
           <motion.div variants={item} className="mt-8 flex flex-wrap items-center gap-3">
@@ -97,20 +97,20 @@ const Hero = () => {
           <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-[28px] border-2 border-mint/70 md:translate-x-5 md:translate-y-5" />
           <div className="group relative aspect-square overflow-hidden rounded-[28px] border border-line bg-card animate-float">
             <img
-              src="/images/ovt.jpeg"
-              alt="Portrait of Victor Olatunji"
+              src="/images/winner.png"
+              alt="Portrait of Winner Edwin"
               draggable={false}
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
               <div>
-                <p className="font-clashbold text-[18px] leading-none text-white">Victor Olatunji</p>
+                <p className="font-clashbold text-[18px] leading-none text-white">Winner Edwin</p>
                 <p className="mt-1 font-mono text-[11px] uppercase tracking-[0.16em] text-mint">
-                  VickyJay
+                  mikelneonedwin
                 </p>
               </div>
-              <span className="chip">Lagos, NG</span>
+              <span className="chip">Uyo, NG</span>
             </div>
           </div>
         </motion.div>
