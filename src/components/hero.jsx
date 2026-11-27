@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import winnerImg from "../assets/images/winner.png";
 import Socials from "./socials";
 import { Arrow } from "./svgs";
 
@@ -97,7 +98,7 @@ const Hero = () => {
           <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-[28px] border-2 border-mint/70 md:translate-x-5 md:translate-y-5" />
           <div className="group relative aspect-square overflow-hidden rounded-[28px] border border-line bg-card animate-float">
             <img
-              src="/images/winner.png"
+              src={winnerImg}
               alt="Portrait of Winner Edwin"
               draggable={false}
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
